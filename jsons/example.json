@@ -1,0 +1,48 @@
+{
+  "username": "John Doe",
+  "item_id_interactions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "recommendations": [
+    {
+      "name": "Recommended by the first system",
+      "items":
+      [
+        {
+          "item_id": 6,
+          "text": "Given your previous interactions, we think you'll like this item."
+        },
+        {
+          "item_id": 7,
+          "text": "This game aligns very closely with your interests."
+        },
+        {
+          "item_id": 8,
+          "text": "Based on the games you've played, this game is a good fit for you."
+        }
+      ]
+    },
+    {
+      "name": "Recommended by the second system",
+      "items":
+      [
+        {
+          "item_id": 9,
+          "text": "This item is very popular among people who like your favorite games."
+        },
+        {
+          "item_id": 10,
+          "text": "This game might be a good fit for you, but we're not sure. We're just recommending it because it's popular."
+        },
+        {
+          "item_id": 11,
+          "text": "You probably won't like this item, but we're recommending it anyway so you'll buy it, won't like it, and then buy something else, consequently making us more money. After all, giving you a good recommendation isn't our goal, making money is."
+        }
+      ]
+    }
+  ]
+}
