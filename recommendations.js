@@ -1,14 +1,36 @@
 window.onload = function() {
+    let list = new XMLHttpRequest();
+    list.open('GET', 'jsons/list.php', true);
+    list.onload = function () {
+        if (list.status >= 200 && list.status < 400) {
+            for (let file of JSON.parse(list.responseText)) {
+                let option = document.createElement('option');
+                option.value = file;
+                option.innerHTML = file;
+                document.getElementById('userSelect').appendChild(option);
+            }
+        }
+        regenList();
+    }
+    list.send();
+}
+
+function regenList() {
+    let file = document.getElementById('userSelect').value;
     let request = new XMLHttpRequest();
-    request.open('GET', 'jsons/example.json', true);
+    request.open('GET', 'jsons/' + file, true);
     request.onload = function () {
         if (request.status >= 200 && request.status < 400) {
             let data = JSON.parse(request.responseText);
-            //let username = data.username;
+            let username = data.username;
             let itemIds = data.item_id_interactions;
             let recommendations = data.recommendations;
+            let header = document.getElementById('header');
             let interactionsDiv = document.getElementById('interacted');
             let recommendationsDiv = document.getElementById('recommended');
+            header.innerHTML = '<h1> Recommendations for ' + username + '</h1>';
+            interactionsDiv.innerHTML = '';
+            recommendationsDiv.innerHTML = '';
             for (let i = 0; i < Math.min(5, itemIds.length); i++) {
                 let item = document.createElement('div');
                 item.style.display = 'inline-block';

@@ -1,0 +1,30 @@
+{
+  "username": "John Doe 3",
+  "item_id_interactions": [
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "recommendations": [
+    {
+      "name": "Recommended by the first system",
+      "items":
+      [
+        {
+          "item_id": 28,
+          "text": "Given your previous interactions, we think you'll like this item."
+        },
+        {
+          "item_id": 29,
+          "text": "This game aligns very closely with your interests."
+        },
+        {
+          "item_id": 30,
+          "text": "Based on the games you've played, this game is a good fit for you."
+        }
+      ]
+    }
+  ]
+}
