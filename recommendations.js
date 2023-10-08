@@ -1,6 +1,6 @@
 window.onload = function() {
     let list = new XMLHttpRequest();
-    list.open('GET', 'jsons/list.php', true);
+    list.open('GET', 'jsons/list.json', true);
     list.onload = function () {
         if (list.status >= 200 && list.status < 400) {
             for (let file of JSON.parse(list.responseText)) {
