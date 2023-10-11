@@ -7,7 +7,7 @@ min_ratings_per_item = 100
 
 # Group generation settings
 group_sizes_to_create = [4] # [2, 3, 4, 5, 6, 7, 8]
-group_similarity_to_create = ["RANDOM", "SIMILAR_ONE_DIVERGENT"]
+group_similarity_to_create = ["SIMILAR"]
 group_number = 20
 similar_threshold = 0.3
 dissimilar_threshold = -0.1

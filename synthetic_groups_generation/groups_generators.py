@@ -81,7 +81,8 @@ class SimilarGroupsGenerator(GroupsGenerator):
         if len(candidate_ids) == 0:
             return None
         else:
-            selection = random.sample(candidate_ids, 1)
+            #loh
+            selection = random.sample(sorted(candidate_ids), 1)
             return selection[0]
 
     def generateGroups(self, user_id_indexes, user_id_set, similarity_matrix, group_sizes_to_create, group_number_to_create):
@@ -197,3 +198,5 @@ class MinorityGroupsGenerator(GroupsGenerator):
             print(len(groups_list))
         return groups_list
 
+
+#%%
