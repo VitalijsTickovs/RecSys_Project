@@ -15,6 +15,12 @@ cb_features =  [
                 'Kickstarted',
                 'MfgAgeRec',
                 'MinPlayers',
+                'ComMaxPlaytime',
+                'ComMinPlaytime',
+                'MaxPlayers',
+                'MfgAgeRec',
+                'MfgPlaytime',
+                'YearPublished'
                 
                 'NumExpansions',
                 'NumImplementations',
