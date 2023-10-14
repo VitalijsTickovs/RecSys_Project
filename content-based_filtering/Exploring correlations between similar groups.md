@@ -25,13 +25,19 @@ The 3 features below are not really correlated with any other
 
  The following features do not really have a strong correlation between each other
 
- 'BestPlayers',
- 'GameWeight',
- 'ComAgeRec',
- 'Kickstarted',
- 'IsReimplementation',
- 'MinPlayers',
- 'MfgAgeRec'
+'BestPlayers',
+'ComAgeRec',
+'GameWeight',
+'IsReimplementation',
+'Kickstarted',
+'MfgAgeRec',
+'MinPlayers',
+'ComMaxPlaytime',
+'ComMinPlaytime',
+'MaxPlayers',
+'MfgAgeRec',
+'MfgPlaytime',
+'YearPublished'
 
 No really big correlation between category features
 'Cat:Childrens',

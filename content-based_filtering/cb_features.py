@@ -18,9 +18,8 @@ cb_features =  [
                 'ComMaxPlaytime',
                 'ComMinPlaytime',
                 'MaxPlayers',
-                'MfgAgeRec',
                 'MfgPlaytime',
-                'YearPublished'
+                'YearPublished',
                 
                 'NumExpansions',
                 'NumImplementations',
