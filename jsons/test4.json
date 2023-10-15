@@ -1,11 +1,11 @@
 {
   "username": "Group Recommendation",
   "item_id_interactions": [
-    12002,
-    12345, 
-    27423, 
-    13223, 
-    24002
+    1,
+    2, 
+    3, 
+    4, 
+    5
   ],
   "recommendations": [
     {
