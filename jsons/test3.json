@@ -1,5 +1,5 @@
 {
-  "username": "John Doe 3",
+  "username": "Tonydorrf",
   "item_id_interactions": [
     23,
     24,
@@ -9,20 +9,28 @@
   ],
   "recommendations": [
     {
-      "name": "Recommended by the first system",
+      "name": "These game are recommended to you because we noticed that you like board games ranked high in the thematic, strategy rankings.",
       "items":
       [
         {
-          "item_id": 28,
-          "text": "Given your previous interactions, we think you'll like this item."
+          "item_id": 22551,
+          "text": ""
         },
         {
-          "item_id": 29,
-          "text": "This game aligns very closely with your interests."
+          "item_id": 67492,
+          "text": ""
         },
         {
-          "item_id": 30,
-          "text": "Based on the games you've played, this game is a good fit for you."
+          "item_id": 266507,
+          "text": ""
+        },
+        {
+          "item_id": 167698,
+          "text": ""
+        },
+        {
+          "item_id": 181279,
+          "text": ""
         }
       ]
     }
