@@ -49,7 +49,7 @@ function regenList() {
                     let img = document.getElementById('img_interacted_' + i);
                     let text = document.getElementById('text_interacted_' + i);
                     img.src = xml.getElementsByTagName('thumbnail')[0].innerHTML;
-                    text.innerHTML = "<i><b>" + xml.getElementsByTagName('name')[0].getAttribute("value") + '</b> was interacted with by you.</i>'
+                    text.innerHTML = "<i><b>" + xml.getElementsByTagName('name')[0].getAttribute("value")
                 });
                 interactionsDiv.appendChild(item);
             }
