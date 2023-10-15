@@ -1,12 +1,11 @@
 {
-  "username": "John Doe 2",
+  "username": "Tonydorrf",
   "item_id_interactions": [
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
+    274152,
+    161936, 
+    274690, 
+    264055, 
+    222514
   ],
   "recommendations": [
     {
@@ -32,6 +31,24 @@
         {
           "item_id": 181279,
           "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Recommended by the second system",
+      "items":
+      [
+        {
+          "item_id": 20,
+          "text": "This item is very popular among people who like your favorite games."
+        },
+        {
+          "item_id": 21,
+          "text": "This game might be a good fit for you, but we're not sure. We're just recommending it because it's popular."
+        },
+        {
+          "item_id": 22,
+          "text": "You probably won't like this item, but we're recommending it anyway so you'll buy it, won't like it, and then buy something else, consequently making us more money. After all, giving you a good recommendation isn't our goal, making money is."
         }
       ]
     }
