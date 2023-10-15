@@ -1,5 +1,5 @@
 {
-  "username": "Tonydorrf",
+  "username": "Group Recommendation",
   "item_id_interactions": [
     274152,
     161936, 
@@ -9,27 +9,27 @@
   ],
   "recommendations": [
     {
-      "name": "We noticed that you like board games ranked high in the thematic, strategy rankings.",
+      "name": "Even though we know you put a lot emphasis on the difficulty of a game, your group is interested in highly ranked boardgames.",
       "items":
       [
         {
-          "item_id": 22551,
+          "item_id": 10547,
           "text": ""
         },
         {
-          "item_id": 67492,
+          "item_id": 15062,
           "text": ""
         },
         {
-          "item_id": 266507,
+          "item_id": 204493,
           "text": ""
         },
         {
-          "item_id": 167698,
+          "item_id": 224483,
           "text": ""
         },
         {
-          "item_id": 181279,
+          "item_id": 17405,
           "text": ""
         }
       ]
