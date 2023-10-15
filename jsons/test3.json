@@ -1,32 +1,35 @@
 {
   "username": "Tonydorrf",
   "item_id_interactions": [
-    23,
-    24
+    274152,
+    161936, 
+    274690, 
+    264055, 
+    222514
   ],
   "recommendations": [
     {
-      "name": "These game are recommended to you because we noticed that you like board games ranked high in the thematic, strategy rankings.",
+      "name": "Players Who Liked The Games: IT: Evil Below, Talisman: Batman – Super-Villains Edition, Draftosaurus Also Liked",
       "items":
       [
         {
-          "item_id": 22551,
+          "item_id": 345976,
           "text": ""
         },
         {
-          "item_id": 67492,
+          "item_id": 249277,
           "text": ""
         },
         {
-          "item_id": 266507,
+          "item_id": 342942,
           "text": ""
         },
         {
-          "item_id": 167698,
+          "item_id": 16085,
           "text": ""
         },
         {
-          "item_id": 181279,
+          "item_id": 256885,
           "text": ""
         }
       ]
