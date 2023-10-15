@@ -9,11 +9,15 @@
   ],
   "recommendations": [
     {
-      "name": "While Not Your Top Picks, These Choices Align Well With Fans Of 'Mage Knight Board Game', 'Catan', \n And Sometimes With Items That You Like: 'The Lord of the Rings: The Card Game', 'Race for the Galaxy'",
+      "name": "Players Who Liked The Games: IT: Evil Below, Talisman: Batman – Super-Villains Edition, Draftosaurus, Also Liked",
       "items":
       [
         {
-          "item_id": 284121
+          "item_id": 345976
+          "text": ""
+        },
+        {
+          "item_id": 249277,
           "text": ""
         },
         {
@@ -21,15 +25,11 @@
           "text": ""
         },
         {
-          "item_id": 341169,
+          "item_id": 16085,
           "text": ""
         },
         {
-          "item_id": 345976,
-          "text": ""
-        },
-        {
-          "item_id": 248562,
+          "item_id": 256885,
           "text": ""
         }
       ]
